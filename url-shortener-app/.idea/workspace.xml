@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a778699-9d22-46d7-96ef-5f056a3ae31d" name="Default Changelist" comment="" />
+    <list default="true" id="3a778699-9d22-46d7-96ef-5f056a3ae31d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/url-shortener-app/app/Http/Controllers/IndexController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/url-shortener-app/app/Models/UrlMapper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/url-shortener-app/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/url-shortener-app/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/url-shortener-app/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/url-shortener-app/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/url-shortener-app/storage/logs/laravel.log" beforeDir="false" afterPath="$PROJECT_DIR$/url-shortener-app/storage/logs/laravel.log" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +35,9 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
@@ -127,6 +155,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="20wIcxeOR9WU6eySn8ORbRmAUm2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -159,23 +188,52 @@
       <workItem from="1636985246070" duration="530000" />
       <workItem from="1637026993501" duration="594000" />
       <workItem from="1637027716143" duration="332000" />
-      <workItem from="1637028075115" duration="1107000" />
+      <workItem from="1637028075115" duration="700000" />
+      <workItem from="1637029629432" duration="592000" />
+      <workItem from="1637072186536" duration="204000" />
+      <workItem from="1637112599553" duration="13000" />
+      <workItem from="1637112650231" duration="327000" />
+      <workItem from="1637113095966" duration="6841000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="618" y="380" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1637112668887">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="618" y="380" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1792.1097@0.23.1792.1097" timestamp="1637112668887" />
+    <state x="634" y="333" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1637117816699">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="634" y="333" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1637117816699" />
+    <state x="715" y="502" key="NewPhpFileDialog" timestamp="1637117700258">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="715" y="502" key="NewPhpFileDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1637117700258" />
     <state x="597" y="326" width="598" height="518" key="find.popup" timestamp="1637027821613">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="597" y="326" width="598" height="518" key="find.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1637027821613" />
     <state x="597" y="326" width="598" height="518" key="find.popup/1792.23.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1636951371008" />
-    <state x="561" y="268" width="670" height="676" key="search.everywhere.popup" timestamp="1637028100234">
+    <state x="561" y="268" width="670" height="676" key="search.everywhere.popup" timestamp="1637118209700">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="561" y="268" width="670" height="676" key="search.everywhere.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1637028100234" />
+    <state x="561" y="268" width="670" height="676" key="search.everywhere.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1637118209700" />
     <state x="561" y="268" width="670" height="676" key="search.everywhere.popup/1792.23.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1636985888633" />
   </component>
 </project>

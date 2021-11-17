@@ -16,3 +16,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/shortUrl/{code}', 'App\Http\Controllers\IndexController@index')->name('index.index');
