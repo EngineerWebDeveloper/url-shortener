@@ -32,12 +32,17 @@ class IndexController extends Controller
     {
         $url = $request->get("url");
         if (filter_var($url, FILTER_VALIDATE_URL)) {
-            $newUrlMapper = new UrlMapper();
-            $newUrlMapper->url = $url;
-            $newUrlMapper->url_code =  substr(md5($url), 0, 8);;
-            $newUrlMapper->visits_count = 0;
-            $newUrlMapper->save();
-            echo "url was successfully added: ". 'http://' . $_SERVER['SERVER_NAME'] . ':' . $_SERVER['SERVER_PORT'] . '/su/' . $newUrlMapper->url_code ;
+            $urlMapper = UrlMapper::where('url', $url)->first();
+            if($urlMapper){
+                echo "Url already exists: ".'http://'. $_SERVER['SERVER_NAME'] . ':' . $_SERVER['SERVER_PORT'] . '/su/' . $urlMapper->url_code ; ;
+            }else{
+                $newUrlMapper = new UrlMapper();
+                $newUrlMapper->url = $url;
+                $newUrlMapper->url_code =  substr(md5($url), 0, 8);;
+                $newUrlMapper->visits_count = 0;
+                $newUrlMapper->save();
+                echo "url was successfully added: ". 'http://' . $_SERVER['SERVER_NAME'] . ':' . $_SERVER['SERVER_PORT'] . '/su/' . $newUrlMapper->url_code ;
+            }
         } else {
             echo "Invalid URL, please try again!";
         }

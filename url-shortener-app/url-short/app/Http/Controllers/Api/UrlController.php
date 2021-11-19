@@ -54,6 +54,10 @@ class UrlController extends Controller
         }
     }
 
+    /**
+     * @param $code
+     * @return JsonResponse
+     */
     public function getUrl($code)
     {
         $urlMapper = UrlMapper::where(['url_code' => $code])->first();
