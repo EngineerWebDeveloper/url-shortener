@@ -16,6 +16,5 @@ class IndexController extends Controller
         } else {
             abort(404);
         }
-
     }
 }
