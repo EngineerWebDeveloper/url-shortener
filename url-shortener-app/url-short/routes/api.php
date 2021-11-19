@@ -18,5 +18,5 @@ use Illuminate\Support\Facades\Route;
 Route::group(['prefix' => '/'], function() {
     Route::post('url.json', 'Api\UrlController@url');
     Route::get('top.json', 'Api\UrlController@top');
-    Route::get('{code}', 'Api\UrlController@getCode');
+    Route::get('{code}', 'Api\UrlController@getUrl');
 });

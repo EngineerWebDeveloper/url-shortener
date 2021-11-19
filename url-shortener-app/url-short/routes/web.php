@@ -18,4 +18,6 @@ Route::get('/', function () {
 });
 
 Route::get('/su/{code}', 'IndexController@index')->name('index.index');
+Route::get('/administration', 'IndexController@addUrlForm')->name('index.addForm');
+Route::get('/submit', 'IndexController@addUrl')->name('index.add');
 
